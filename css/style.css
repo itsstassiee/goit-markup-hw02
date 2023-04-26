@@ -1,6 +1,7 @@
 body {
-    font-family: 'roboto', sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -9,6 +10,10 @@ body {
 
 .text-dec {
     text-decoration: none;
+}
+
+.address {
+    font-style: normal;
 }
 
 .page-btn {
@@ -22,40 +27,58 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
-.page-btn:hover,
-.page-btn:focus {
-    background: #404BBF;
+.page-btn:hover {
+    background: #404bbf;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
-.web-logo {
-    font-family: 'Raleway', sans-serif;
+.page-btn:focus {
+    background: #404bbf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+/* .web-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
     color: #4D5AE5;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+    font-weight: 800
+} */
 
 .studio-logo {
-    color: #2E2F42;
-    font-family: 'Raleway', sans-serif;
+    color: #2e2f42;
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .std-logo-foot {
-    color: #F4F4FD;
+    color: #f4f4fd;
+    font-weight: 800;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -103,22 +126,25 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    /* color: #2E2F42; */
+    color: #2E2F42;
+    font-weight: 500;
 }
 
 .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    /* color: #434455; */
 }
 
 .page-header {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
+    text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
-    /* color: #2E2F42; */
+    color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .btn {
@@ -144,4 +170,16 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+
+.sec-page {
+    background-color: #2e2f42;
+}
+
+.sect {
+    background-color: #F4F4FD;
+}
+
+.card {
+    background-color: #FFFFFF;
 }
