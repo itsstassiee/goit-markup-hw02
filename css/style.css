@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
@@ -50,6 +50,7 @@ body {
     color: #4d5ae5;
     line-height: 1.17;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* .web-logo {
@@ -71,6 +72,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .std-logo-foot {
@@ -82,6 +84,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .page-menu {
