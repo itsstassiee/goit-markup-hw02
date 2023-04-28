@@ -1,11 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 
 }
 
 :root {
-    color: #434455;
+    --text-color: #434455;
+    --white: #FFFFFF;
+    --text-btn: #4D5AE5;
+    --btn: #404bbf;
+    --text: #2e2f42;
+    --section: #f4f4fd;
+    --border: #E7E9FC;
 }
 
 .list {
@@ -21,7 +27,7 @@ body {
 }
 
 .page-btn {
-    background: #4D5AE5;
+    background: var(--text-btn);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -29,19 +35,19 @@ body {
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
 .page-btn:hover {
-    background: #404bbf;
+    background: var(--btn);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
 .page-btn:focus {
-    background: #404bbf;
+    background: var(--btn);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -51,7 +57,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--text-btn);
     line-height: 1.17;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,7 +75,7 @@ body {
 } */
 
 .studio-logo {
-    color: #2e2f42;
+    color: var(--text);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -80,7 +86,7 @@ body {
 }
 
 .std-logo-foot {
-    color: #f4f4fd;
+    color: var(--section);
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -95,26 +101,26 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text);
     font-weight: 500;
 }
 
 .page-menu:hover,
 .page-menu:focus {
-    color: #404bbf;
+    color: var(--btn);
 }
 
 .contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 
 }
 
 .contact:hover,
 .contact:focus {
-    color: #404BBF;
+    color: var(--btn);
 }
 
 .header {
@@ -122,7 +128,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 /* .text-btn {
@@ -138,7 +144,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text);
     font-weight: 500;
 }
 
@@ -146,7 +152,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 .page-header {
@@ -155,13 +161,13 @@ body {
     text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text);
     text-transform: capitalize;
 }
 
 .botn {
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background: var(--section);
+    border: 1px solid var(--border);
     border-radius: 4px;
     color: #4D5AE5;
     font-size: 16px;
@@ -177,7 +183,7 @@ body {
 
 .botn:hover,
 .botn:focus {
-    background: #404BBF;
+    background: var(--btn);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     font-size: 16px;
@@ -185,7 +191,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
@@ -193,15 +199,15 @@ body {
 
 
 .sec-page {
-    background-color: #2e2f42;
+    background-color: var(--text);
 }
 
 .sect {
-    background-color: #F4F4FD;
+    background-color: var(--section);
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 /* .header-text {
@@ -211,5 +217,9 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 } */
-
-.link-page {}
+.text-footer {
+    color: var(--section);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
