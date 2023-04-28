@@ -1,11 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    background-color: #FFFFFF;
 
 }
 
 :root {
-    background-color: #FFFFFF;
+    color: #434455;
 }
 
 .list {
@@ -99,6 +99,11 @@ body {
     font-weight: 500;
 }
 
+.page-menu:hover,
+.page-menu:focus {
+    color: #404bbf;
+}
+
 .contact {
     font-size: 16px;
     line-height: 1.5;
@@ -164,7 +169,11 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
 }
+
 
 .botn:hover,
 .botn:focus {
@@ -181,6 +190,8 @@ body {
     font-weight: 500;
 }
 
+
+
 .sec-page {
     background-color: #2e2f42;
 }
@@ -192,3 +203,13 @@ body {
 .card {
     background-color: #FFFFFF;
 }
+
+.header-main {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.link-page {}
